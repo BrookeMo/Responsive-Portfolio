@@ -318,9 +318,6 @@ footer {
         margin: -15px 0px;
     }
     /*Portfolio*/
-    .portlinks left {
-        margin: 0px;
-    }
     .portimages {
         width: 315px;
         margin: 0px;
@@ -330,7 +327,50 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+    /*Header*/
     header {
         position: static;
+        height: 155px;
+        width: 640px;
+    }
+    .header {
+        height: 155px;
+        width: 640px;
+    }
+    #logo {
+        width: 640px;
+        margin: 0px;
+        padding: 26px 0px;
+    }
+    .navigation {
+        width: 600px;
+        float: none;
+        margin: 0px 20px;
+        height: 70px;
+    }
+    .navlink {
+        padding: 0px 70px;
+    }
+    /*Body Content*/
+    .bodycontent {
+        width: 600px;
+    }
+    sidebar {
+        width: 535px;
+        position: relative;
+        right: -5px;
+    }
+    section {
+        width: 535px;
+    }
+    /*About Me*/
+    #pic {
+        width: 535px;
+        float: none;
+    }
+
+    .text p {
+        width: 535px;
+        padding-top: 20px;
     }
 }
