@@ -373,4 +373,11 @@ footer {
         width: 535px;
         padding-top: 20px;
     }
+    /*Portfolio*/
+    .portimages {
+        width: 535px;
+        float: none;
+        display: block;
+        align-content: center;
+    }
 }
