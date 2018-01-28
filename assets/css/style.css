@@ -272,6 +272,21 @@ footer {
     section {
         width: 380px;
     }
+
+    .pic {
+        float: none;
+        display: block;
+        width: 380px;
+    }
+    .text p {
+        display: block;
+    }
+
+    .portimages {
+        width: 380px;
+        align-content: center;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
