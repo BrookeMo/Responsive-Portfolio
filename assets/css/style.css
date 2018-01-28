@@ -263,26 +263,26 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+    /*All 3 Sites*/
     .header {
         width: 730px;
     }
     .bodycontent {
         width: 730px;
     }
+    /*About Me*/
     section {
         width: 380px;
     }
-
     #pic {
         float: none;
         width: 380px;
         margin: -15px 0px 15px 0px;
     }
-
     .text p {
         width: 380px;
     }
-
+    /*Portfolio*/
     .portimages {
         width: 380px;
         align-content: center;
@@ -290,10 +290,18 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    /*About Me*/
     section {
         width: 660px;
         display: inline-block;
         margin: 10px 0px 120px 0px;
+    }
+    #pic {
+        float: left;
+    }
+    .text p {
+        width: 660px;
+        margin: -15px 0px;
     }
 
     sidebar {
