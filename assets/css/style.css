@@ -273,24 +273,42 @@ footer {
         width: 380px;
     }
 
-    .pic {
+    #pic {
         float: none;
-        display: block;
         width: 380px;
+        margin: -15px 0px 15px 0px;
     }
+
     .text p {
-        display: block;
+        width: 380px;
     }
 
     .portimages {
         width: 380px;
         align-content: center;
     }
-
 }
 
 @media screen and (max-width: 768px) {
+    section {
+        width: 660px;
+        display: inline-block;
+        margin: 10px 0px 120px 0px;
+    }
 
+    sidebar {
+        width: 660px;
+        display: inline-block;
+        margin: 0px 4px 20px 0px;
+    }
+    #contact {
+        text-align: justify;
+        text-align-last: left;
+    }
+    .contactlinks {
+        text-align: justify;
+        text-align-last: left;
+    }
 }
 
 @media screen and (max-width: 640px) {
