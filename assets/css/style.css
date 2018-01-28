@@ -290,6 +290,20 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    /*Contact Links*/
+    sidebar {
+        width: 660px;
+        display: inline-block;
+        margin: 0px 4px 20px 0px;
+    }
+    #contact {
+        text-align: justify;
+        text-align-last: left;
+    }
+    .contactlinks {
+        text-align: justify;
+        text-align-last: left;
+    }
     /*About Me*/
     section {
         width: 660px;
@@ -303,19 +317,15 @@ footer {
         width: 660px;
         margin: -15px 0px;
     }
-
-    sidebar {
-        width: 660px;
+    /*Portfolio*/
+    .portlinks left {
+        margin: 0px;
+    }
+    .portimages {
+        width: 315px;
+        margin: 0px;
         display: inline-block;
-        margin: 0px 4px 20px 0px;
-    }
-    #contact {
-        text-align: justify;
-        text-align-last: left;
-    }
-    .contactlinks {
-        text-align: justify;
-        text-align-last: left;
+        position: static;
     }
 }
 
