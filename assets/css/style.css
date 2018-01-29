@@ -267,7 +267,7 @@ footer {
         width: 730px;
     }
     .bodycontent {
-        width: 730px;
+        max-width: 730px;
     }
     /*About Me*/
     section {
@@ -276,11 +276,13 @@ footer {
     #pic {
         float: none;
         width: 380px;
-        margin: -15px 0px 15px 0px;
+        margin: -15px 0px 15px -30px;
     }
     .text p {
         width: 380px;
+        margin: 0px 0px 0px -30px;
     }
+
     /*Portfolio*/
     .portimages {
         width: 380px;
@@ -316,9 +318,8 @@ footer {
         text-align: justify;
         text-align-last: left;
     }
-    #sidebar {
-        margin: 10px 23px 120px 0px;
-    }
+    /*#sidebar {
+        margin: 10px 23px 120px 0px;*/
     /*About Me*/
     section {
         width: 660px;
@@ -327,10 +328,11 @@ footer {
     }
     #pic {
         float: left;
+        margin: 0px 0px 0px -30px;
     }
     .text p {
         width: 660px;
-        margin: -15px 0px;
+        margin: -15px -50px;
     }
     /*Portfolio*/
     .portimages {
