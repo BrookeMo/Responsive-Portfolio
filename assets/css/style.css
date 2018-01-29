@@ -7,7 +7,6 @@ hr {
 }
 /* Header CSS*/
 #header {
-    height: 87px;
     padding: 0px;
     margin: 0px;
     border-bottom: 2px solid #cfcfcf;
@@ -354,11 +353,9 @@ footer {
     /*Header*/
     header {
         position: static;
-        height: 155px;
         width: 640px;
     }
     .header {
-        height: 155px;
         width: 640px;
     }
     #logo {
@@ -370,7 +367,7 @@ footer {
         width: 600px;
         float: none;
         margin: 0px 20px;
-        height: 70px;
+        padding: 20px 0px;
     }
     .navlink {
         padding: 0px 70px;
