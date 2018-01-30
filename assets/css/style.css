@@ -403,4 +403,13 @@ footer {
         display: block;
         align-content: center;
     }
+    .right {
+        margin: none;
+        float: none;
+    }
+    .text-block {
+        position: relative;
+        top: -380px;
+        text-decoration: none;
+    }
 }
